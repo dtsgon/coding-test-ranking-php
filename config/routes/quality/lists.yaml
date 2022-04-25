@@ -1,0 +1,12 @@
+# case 2: listar los anuncios para un usuario de idealista
+v1_lists_user:
+    path: /v1/lists/user/{userId}
+    controller: App\Controller\Quality\ListsController::listAdByUserV1
+    defaults:
+        userId:
+
+
+# case 3: listar los anuncios para el responsable
+v1_lists_manager:
+    path: /v1/lists/manager
+    controller: App\Controller\Quality\ListsController::listAdsForManagerV1

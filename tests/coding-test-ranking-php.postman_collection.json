@@ -1,0 +1,99 @@
+{
+	"info": {
+		"_postman_id": "c108e796-eb21-4500-af12-c25eb9ced5e4",
+		"name": "coding-test-ranking-php",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Quality/v1",
+			"item": [
+				{
+					"name": "Lists",
+					"item": [
+						{
+							"name": "User",
+							"item": [
+								{
+									"name": "#2 - Anuncios para usuario",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "http://localhost:8080/quality/v1/lists/user",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"port": "8080",
+											"path": [
+												"quality",
+												"v1",
+												"lists",
+												"user"
+											]
+										}
+									},
+									"response": []
+								}
+							]
+						},
+						{
+							"name": "Manager",
+							"item": [
+								{
+									"name": "#3 - Anuncios para responsable",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "http://localhost:8080/quality/v1/lists/manager",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"port": "8080",
+											"path": [
+												"quality",
+												"v1",
+												"lists",
+												"manager"
+											]
+										}
+									},
+									"response": []
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Scores",
+					"item": [
+						{
+							"name": "#1 - Cálculo de puntuaciones anuncios",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8080/quality/v1/scores",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"quality",
+										"v1",
+										"scores"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		}
+	]
+}

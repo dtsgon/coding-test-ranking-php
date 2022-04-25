@@ -1,0 +1,10 @@
+quality_lists:
+    resource: quality/lists.yaml
+    prefix: /quality
+    name_prefix: quality_
+    
+quality_scores:
+    resource: quality/scores.yaml
+    prefix: /quality
+    name_prefix: quality_
+        

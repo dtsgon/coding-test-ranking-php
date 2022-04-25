@@ -1,0 +1,4 @@
+# case 1: para calcular la puntuación de todos los anuncios
+v1_scores:
+    path: /v1/scores
+    controller: App\Controller\Quality\ScoresController::showScoresV1
